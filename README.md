@@ -1,10 +1,11 @@
 # Credit Card Transaction and Customer Analysis
-
 This project involves the analysis of credit card transactions and customer details to generate insights and reports using Power BI. The dataset consists of two tables: Credit Card and Customer Details. The report provides various metrics such as revenue by expenditure type, education level, customer job, card category, transaction method, income group, age group, profession, marital status, and state.
+
 ## Tech Stack
 - SQL Server
 - PowerBI Desktop
 - PowerBI Service
+
 ## Datasets
 
 ### Credit Card Data
@@ -24,12 +25,17 @@ Client_Num, Customer_Age, Gender, Dependent_Count, Education_Level, Marital_Stat
 - AVERAGE: Used to calculate the average of a column.
 - AVERAGEX: Used to calculate the average of an expression evaluated for each row of a table.
 - WEEKNUM: Used to calculate the week number for date-related calculations.
+
 ## Screenshots
 
-![Screenshot 1](Customer Report.png)
-![Screenshot 2](Credit Card Transaction Report.png)
-## Analysis and Report
+Credit Card Transaction Report
+![Credit_Card_Transaction_Report.png](Credit_Card_Transaction_Report.png)
 
+Credit Card Customer Report
+![Customer Report.png](Customer_Report.png)
+
+
+## Analysis and Report
 The report includes insights on:
 
 - Quarterly Revenue and Transaction Volume
@@ -50,8 +56,8 @@ The report includes insights on:
     * Total Transaction Count
     * Average Income
     * Customer Satisfaction Score
-## Insights
 
+## Insights
 - Blue Card and Silver Card contributes to 93% of Revenue.
 - Businessman and White coller persons are most likely to spend using credit card.
 - Most of the card holders are Graduated individuals.
@@ -61,14 +67,13 @@ The report includes insights on:
 - Top 5 States contribuetes to 97% of Revenue.
 
 ## Recommendations
-
 - Include offers for Blue Card owners so that they will spend more.
 - Offers for Businessman for using credit card for business uses.
 - Reduce annual fee for customers having Low income.
 - Target graduated individuals for advertising.
 - Advertise more in states other than Top 5 States.
-## Publish Report
 
+## Publish Report
 * Power BI Service
 
     The final report has been published to Power BI Service, allowing for easy sharing and collaboration with stakeholders. This enables real-time access to the report and the ability to interact with the data through various filters and visualizations.
